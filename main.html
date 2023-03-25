@@ -1,16 +1,58 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h1{
+      color: white;
+      text-align: center;
+      background-color: #011E29;
+    }
+    h2,h3{
+      text-align: center;
+    }
+    .container{
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      background-color: #F5F5F5;
+      align-items: start;
+    }
+    .container div{
+      margin:5px;
+      background-color: white;
+      border-radius: 20px;
+      padding:20px
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <h1>Shaw's News</h1>
+  <div class="container">
+    <div class="lna">
+      <h3>Latest News Articles</h3>
+      <ul>
+        <li>Article 1</li>
+        <li>Article 2</li>
+        <li>Article 3</li>
+      </ul>
+    </div>
+    <div class="ma">
+      <h2>Main Article</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ullam magni doloribus, repellat quae aut! Iure doloribus adipisci nihil beatae deleniti ullam molestias ipsa officiis asperiores corporis ea, dolorum pariatur?</p>
+    </div>
+    <div class="pn">
+      <h3>Pictorial News</h3>
+      <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/delhi_rains_1674974112847_1674981888135_1674981888135.jpeg" alt="img1">
+      <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/ADANI-INDIA-GAUTAM-ADANI-0_1675011651023_1675011651023_1675011672003_1675011672003.JPG" alt="img2">
+      <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/FRANCE-REFORM-PENSIONS-31_1675022359706_1675022359706_1675022383851_1675022383851.JPG" alt="img3">
+    </div>
+  </div>
 </body>
-
 </html>
